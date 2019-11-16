@@ -1,24 +1,26 @@
 # JetBrains 系列软件汉化包  
 关键字:  
-Android Studio 3.2.1 汉化包  
-CLion 2018.2 汉化包  
-GoLand 2018.3 汉化包  
-IntelliJ IDEA 2018.3 汉化包  
-PhpStorm 2018.3 汉化包  
-PyCharm 2018.3 汉化包  
-RubyMine 2018.3 汉化包  
-WebStorm 2018.3 汉化包  
+Android Studio 3.5 汉化包  
+CLion 2019.2 汉化包  
+DataGrip 2019.2 汉化包  
+GoLand 2019.2 汉化包  
+IntelliJ IDEA 2019.2 汉化包  
+PhpStorm 2019.2 汉化包  
+PyCharm 2019.2 汉化包  
+Rider 2019.2 汉化包  
+RubyMine 2019.2 汉化包  
+WebStorm 2019.2 汉化包  
 
 
 平方X原创汉化，转载请注明出处。  
-[https://www.pingfangx.com/xx/translation](http://www.pingfangx.com/xx/translation)  
+[https://www.pingfangx.com/xx/translation/jetbrains](https://www.pingfangx.com/xx/translation/jetbrains)  
 
 ![预览图](https://pingfangx.github.io/resource/blogx/2421.1.png)
 
 
 # 0x01 下载
-从 [[github](https://github.com/pingfangx/jetbrains-in-chinese)]
-或者 [[百度云](https://pan.baidu.com/s/1c1UVmPa)]  
+从 [[github](https://www.pingfangx.com/xx/translation/jetbrains/download/github)]
+或者 [[百度云(提取码:2222)](https://www.pingfangx.com/xx/translation/jetbrains/download/baidu)]  
 下载软件对应的汉化包  
 命名为 `resources_zh_CN_<软件名>_<版本>.jar`
 
@@ -28,35 +30,45 @@ WebStorm 2018.3 汉化包
 * Android Studio 更新时会自动删除汉化包，请先备份汉化包或更新后重新下载。
 
 # 0x02 使用
-[图文教程](https://github.com/pingfangx/TranslatorX/wiki/Usage#%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B)  
+[图文教程](https://www.pingfangx.com/xx/translation/jetbrains/usage/image)  
 
 将 resources_zh_CN_\*.jar ，放到软件安装路径下的 **lib** 目录中，重启软件即可  
 * 注意是 **lib** 不是 **bin**
 * 不需要重命名，不需要解压，不需要删除任何 jar 包，不会覆盖任何 jar 包
-* 软件的安装路径，如 `D:\software\JetBrains\AndroidStudio\lib`
+* 软件安装路径的 lib 目录示例 `D:\software\JetBrains\AndroidStudio\lib`
 * 该目录下应该有一个文件: resources_en.jar 如果没有，说明没有找对路径
 * MAC 用户请在 Finder > 应用程序 中找到软件，右键 > 显示包内容
 
 # 0x03 反馈
-见常见问题。  
+请认真阅读 [使用方法] 。  
+请查阅下方的常见问题。  
 如果还有疑问，可提 issue 或加群反馈。
 
-* [扣群 663247250](https://jq.qq.com/?_wv=1027&k=5Nhkg8u)
-* [源码](https://www.pingfangx.com/xx/translation)
-* [Issues](https://github.com/pingfangx/TranslatorX/issues)
-* [支持作者](https://www.pingfangx.com/xx/translation/support)
+* [扣群 663247250](https://www.pingfangx.com/xx/translation/jetbrains/feedback/qqgroup)
+* [源码](https://www.pingfangx.com/xx/translation/jetbrains/download/sources)
+* [Issues](https://www.pingfangx.com/xx/translation/jetbrains/feedback/issues)
+* [Contributing](https://www.pingfangx.com/xx/translation/jetbrains/feedback/contributing)
+* [支持作者](https://www.pingfangx.com/xx/translation/jetbrains/feedback/support)
 
 # 0x04 常见问题
 ## 汉化不生效
-请检查 [使用方法] 是否正确
+请按照 [使用方法] 检查是否正确
 
 常见原因
-* 没有将汉化包放在 lib 目录（错放在 bin）
-* 汉化包未正常下载（从 github 下载的大小不正确）
-* 操作环境需要设为中文（zh_CN）
+1. 没有将汉化包放到 lib 目录（比如错放在 bin）  
+请检查所放目录中是否有 resources_en.jar
+0. 汉化包未正常下载（从 github 下载的大小可能不正确）  
+请检查下载的汉化包大小是否正常，是否可以作为压缩包正常解压
+0. 当前语言环境不是中文（zh_CN）  
+请打开软件，选择 Help → Edit Custom VM Options...  
+加上两行  
+    -Duser.language=zh  
+    -Duser.region=CN  
+然后重启软件
+
 
 ## 设置打不开
-系统原本的 resources_en.jar 被损坏，恢复该 jar 包，按正确 [使用方法] 重新使用汉化包。
+系统原本的 resources_en.jar 被损坏，请重新安装恢复该 jar 包，按正确 [使用方法] 重新使用汉化包。
 
 常见原因
 * 不需要将汉化包内容解压到 resources_en.jar 中（这是通常网上不正确的汉化包使用方法）
@@ -94,4 +106,4 @@ WebStorm 2018.3 汉化包
 [3].[ACXNX.《AndroidStudio 中文汉化包》](https://github.com/ACXNX/AndroidStudio-ChineseLanguagePackage)  
 [4].[韩梦飞沙 韩亚飞.《安卓工作室 韩梦飞沙 汉化 使用 教程》](http://www.cnblogs.com/yue31313/p/7464727.html)  
 
-[使用方法]: https://github.com/pingfangx/TranslatorX/wiki/Usage (使用方法)
+[使用方法]: https://www.pingfangx.com/xx/translation/jetbrains/usage (使用方法)
